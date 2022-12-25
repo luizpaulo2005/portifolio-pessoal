@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 const Header = () => {
     return(
         <nav className="navbar navbar-expand-lg bg-light">
@@ -18,16 +19,12 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
+              <a className="nav-link active" aria-current="page" href="https://github.com/luizpaulo2005" target="_blank">
+              GitHub
               </a>
-              <a className="nav-link" href="#">
-                Features
+              <a className="nav-link" href="https://www.linkedin.com/in/luiz-paulo-rodrigues-da-silva-santos-bab0b4247/" target="_blank">
+                LinkedIn
               </a>
-              <a className="nav-link" href="#">
-                Pricing
-              </a>
-              <a className="nav-link disabled">Disabled</a>
             </div>
           </div>
         </div>
